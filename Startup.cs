@@ -29,11 +29,12 @@ namespace Tini_HairTies
         {
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+                    Configuration.GetConnectionString("HairTiesContext")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.AddDbContext<HairTiesContext>(options => options.UseSqlServer(Configuration.GetConnectionString("HairTiesContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

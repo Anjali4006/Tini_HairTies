@@ -23,3 +23,27 @@ Added soething nice ;)
 Installed the packages 
 Updated the installed packages with the necessary versions 
 Committed code to git 
+
+11:27 
+Starting with the datbase 
+Created a new file in the data folder 
+FILE NAME: HairTiesContext.cs 
+Added a database context in the public class 
+Tried testing the code ...
+Everything's good ..No errors at this stage 
+Applied migration 
+Registered my email id and created a passwrod 
+
+11:40 
+Registered the database in startup.cs file with the help of the prived code 
+Right after that....
+Added the given code to appsettings.json file to examine database 
+Builded the app ..
+No errors or warnings so far...
+Ready to scaffold the application 
+But... Before that committing everything to git hub so that my code stays safe !!! 
+Scareedd!!!!!
+Scafold is a big sucesss without any errors!!!!!
+ Can Drink water now !!!! LOL !!
+ Committed code to git hub .....With out any errors till now!!!! ;)
+  
