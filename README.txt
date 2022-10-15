@@ -44,6 +44,40 @@ Ready to scaffold the application
 But... Before that committing everything to git hub so that my code stays safe !!! 
 Scareedd!!!!!
 Scafold is a big sucesss without any errors!!!!!
+Got all the files in the views folder created after scafolding. 
  Can Drink water now !!!! LOL !!
  Committed code to git hub .....With out any errors till now!!!! ;)
-  
+
+ Its...MIDNIGHT 12:00 
+ Starting with the migration 
+ Hope it goes right this time!!!! 
+ Super scared!!!!
+ and wooohhoooooo!!!!!!!!!!!
+ No errors migration done !!!!!!
+ Superr happyy!!! owuld hug someone tightly...LOL!!
+ Completed migration at 12:03 
+
+ Taking a break .... 
+
+ So Back from the break... its 12:06 
+ Updated Database ... 
+ Got the following syntax error 
+ ////  No type was specified for the decimal column 'Price' on entity type 'HairTies'.
+ This will cause values to be silently truncated if they do not fit in the default precision and scale. 
+ Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.//// 
+ Trying to solve the error 
+ Tried commenting out the price section and running the update database command but build failed 
+ Searched the error on Mr.Google...It sayas to specify the value for the decimal datatype 
+ But If I specify the decimal type like "decimal(10,5)" my output pannel shows arround 15 syntax errors 
+ Trying to solve this error....
+
+ ///@System.Globalization.CultureInfo.CurrentUICulture///
+ Added the above mentioned globalization code to the index.htmlcs file 
+///app.UseRequestLocalization("en-UY", "fr-FR");///
+Added the above mentioned code to the startup.cs file 
+Adding this code doesn't help at all 
+Ending today's application building here
+Committing everything till here to git 
+End Time : 1:23 AM 
+
+

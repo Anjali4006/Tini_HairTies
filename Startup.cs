@@ -66,6 +66,7 @@ namespace Tini_HairTies
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
+            app.UseRequestLocalization("en-UY", "fr-FR");
         }
     }
 }
