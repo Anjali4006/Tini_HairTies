@@ -15,3 +15,11 @@ Created a new class file in models folder
 FILE NAME: HairTies.cs 
 Added the 7 properties of my product to the file	
 Committed code to git hub 
+
+11:17 
+Edited indexhtml.cs file 
+Changed the welcome text
+Added soething nice ;)
+Installed the packages 
+Updated the installed packages with the necessary versions 
+Committed code to git 
