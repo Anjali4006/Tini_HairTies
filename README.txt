@@ -139,3 +139,8 @@ Ratings are all zero and showing the 0 in coloums
 Trying to solve the error 
 Committing everything till here on github 
 
+7:56 
+Added the validation of the datatypes in each coloums 
+Tested the app and got the expected output 
+Updated readme file and committed to github 
+
