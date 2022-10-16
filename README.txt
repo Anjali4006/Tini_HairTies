@@ -89,3 +89,14 @@ Added the about us page in views > home > AboutUs.cshtml
 Added the necessary code 
 Edited the layout.cshtml file and homecontroller file with the provided code 
 Updated readme and commited code to github 
+
+6:19 pm 
+Added the seedData file in the Data Folders 
+Added the entries in the SeedData.cs file 
+Tested the app 
+Data didn't shown at first place 
+Rebuilded and clean the application 
+Tested the app again 
+Data displayed woohhoo!! 
+Everything is good 
+Committed everything to github
