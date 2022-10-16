@@ -81,3 +81,11 @@ Committing everything till here to git
 End Time : 1:23 AM 
 
 
+Date: 16-10-22 4:55pm 
+Solved the decimal thing , tested the app and everything works properly 
+Edited layout.cshtml file
+Replaced "Home" with the "HairTies" on line 14 
+Added the about us page in views > home > AboutUs.cshtml 
+Added the necessary code 
+Edited the layout.cshtml file and homecontroller file with the provided code 
+Updated readme and commited code to github 
