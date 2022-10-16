@@ -100,3 +100,25 @@ Tested the app again
 Data displayed woohhoo!! 
 Everything is good 
 Committed everything to github
+
+6:43pm 
+Added the search field 
+Updated the program.cs file with the provided code 
+Tested the app using the ?searchString in the url and....
+Everything worked well without any errors!!
+Tried searching for the material in the url and it displayed the necessary data 
+
+Added the provided code to the index.cshtml file in Views>HairTies>Index.cshtml 
+Added the code for the search bar at top of the table with the filter button 
+Saved the changes and tested the app 
+Got the output and search test works properly 
+
+6:55 pm 
+Adding another colour list to the application 
+Edited the Index.cshtml file with provided code 
+Added the list of all the colours in the search string on the index page 
+Saved the edits and teste the app 
+Everything turns out to be amazing... 
+And completed part 7 without any errors 
+Updated readme file 
+and committed everything to github 

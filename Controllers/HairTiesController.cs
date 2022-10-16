@@ -20,11 +20,35 @@ namespace Tini_HairTies.Controllers
         }
 
         // GET: HairTies
-        public async Task<IActionResult> Index()
+        // GET: Movies
+        public async Task<IActionResult> Index(string HairTieColour, string searchString)
         {
-            return View(await _context.HairTie.ToListAsync());
-        }
+            // Use LINQ to get list of genres.
+            IQueryable<string> genreQuery = from m in _context.HairTie
+                                            orderby m.Colour
+                                            select m.Colour;
 
+            var HairTies = from m in _context.HairTie
+                         select m;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                HairTies = HairTies.Where(s => s.Material.Contains(searchString));
+            }
+
+            if (!string.IsNullOrEmpty(HairTieColour))
+            {
+                HairTies = HairTies.Where(x => x.Colour == HairTieColour);
+            }
+
+            var HairTieColourVM = new HairTieColourViewModel
+            {
+                Colour = new SelectList(await genreQuery.Distinct().ToListAsync()),
+                HairTies = await HairTies.ToListAsync()
+            };
+
+            return View(HairTieColourVM);
+        }
         // GET: HairTies/Details/5
         public async Task<IActionResult> Details(int? id)
         {
