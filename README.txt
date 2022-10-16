@@ -122,3 +122,20 @@ Everything turns out to be amazing...
 And completed part 7 without any errors 
 Updated readme file 
 and committed everything to github 
+
+7:15 pm
+After adding the search field 
+Started working with adding the new field in the database 
+Added a new field "RATING" in the database 
+Added the field in the HairTies.cs file 
+Edited the index.cshtml file with the new changes 
+As the new field is added to the databse we need to update in on the application 
+Seeded the data in SeedData.cs file 
+Migrated the rating coloum and updated it 
+Migration was succesfull and data updated succesfully without any errors 
+Tested the application...Scaredd!!!
+Got the output ..Rating coloum does shows but but but....
+Ratings are all zero and showing the 0 in coloums 
+Trying to solve the error 
+Committing everything till here on github 
+

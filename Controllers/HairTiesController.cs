@@ -78,7 +78,7 @@ namespace Tini_HairTies.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Material,Type,Colour,Company,Quantity,Price")] HairTies hairTies)
+        public async Task<IActionResult> Create([Bind("Id,Material,Type,Colour,Company,Quantity,Price,Rating")] HairTies hairTies)
         {
             if (ModelState.IsValid)
             {
@@ -110,7 +110,7 @@ namespace Tini_HairTies.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Material,Type,Colour,Company,Quantity,Price")] HairTies hairTies)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Material,Type,Colour,Company,Quantity,Price,Rating")] HairTies hairTies)
         {
             if (id != hairTies.Id)
             {

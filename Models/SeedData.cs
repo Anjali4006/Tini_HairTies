@@ -31,7 +31,8 @@ namespace Tini_HairTies.Models
                         Colour = "Lilac",
                         Company = "Tini Hair Ties",
                         Quantity = 5,
-                        Price = 10
+                        Price = 10,
+                        Rating = 4
                     },
 
                     new HairTies
@@ -41,7 +42,8 @@ namespace Tini_HairTies.Models
                         Colour = "Teal blue",
                         Company = "Tini Hair Ties",
                         Quantity = 8,
-                        Price = 15
+                        Price = 15,
+                        Rating = 3
                     },
 
                     new HairTies
@@ -51,7 +53,8 @@ namespace Tini_HairTies.Models
                         Colour = "Baby Pink",
                         Company = "Tini Hair Ties",
                         Quantity = 7,
-                        Price = 7
+                        Price = 7,
+                        Rating = 5
                     },
 
                     new HairTies
@@ -61,7 +64,9 @@ namespace Tini_HairTies.Models
                         Colour = "White",
                         Company = "Tini Hair Ties",
                         Quantity = 13,
-                        Price = 10
+                        Price = 10,
+                        Rating =4
+
                     },
                     new HairTies
                     {
@@ -70,7 +75,8 @@ namespace Tini_HairTies.Models
                         Colour = "Transperent",
                         Company = "Tini Hair Ties",
                         Quantity = 20,
-                        Price = 7
+                        Price = 7,
+                        Rating = 4
                     },
                     new HairTies
                     {
@@ -79,7 +85,8 @@ namespace Tini_HairTies.Models
                         Colour = "Floral Violet",
                         Company = "Tini Hair Ties",
                         Quantity = 25,
-                        Price = 10
+                        Price = 10,
+                        Rating =5 
                     },
                     new HairTies
                     {
@@ -88,7 +95,8 @@ namespace Tini_HairTies.Models
                         Colour = "Black",
                         Company = "Tini Hair Ties",
                         Quantity = 50,
-                        Price = 5
+                        Price = 5,
+                        Rating = 3
                     },
                     new HairTies
                     {
@@ -97,7 +105,8 @@ namespace Tini_HairTies.Models
                         Colour = "Pink",
                         Company = "Tini Hair Ties",
                         Quantity = 45,
-                        Price = 12
+                        Price = 12,
+                        Rating = 4
                     },
                     new HairTies
                     {
@@ -106,7 +115,8 @@ namespace Tini_HairTies.Models
                         Colour = "Orange",
                         Company = "Tini Hair Ties",
                         Quantity = 25,
-                        Price = 7
+                        Price = 7,
+                        Rating = 2
                     },
                     new HairTies
                     {
@@ -115,7 +125,8 @@ namespace Tini_HairTies.Models
                         Colour = "Red",
                         Company = "Tini Hair Ties",
                         Quantity = 70,
-                        Price = 10
+                        Price = 10,
+                        Rating =5
                     }
                 ) ;
                 context.SaveChanges();
