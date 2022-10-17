@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Tini_HairTies.Models
 {
@@ -28,6 +29,9 @@ namespace Tini_HairTies.Models
         [Range(1, 100)]
         [DataType(DataType.Currency)]
         public decimal Price { get; set; }
-        public int Rating { get; set; }
+
+        [Range(1, 5)]
+        [Column(TypeName = "decimal(18, 2)")]
+        public decimal Rating { get; set; }
     }
 }
