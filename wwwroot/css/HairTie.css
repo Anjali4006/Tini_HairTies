@@ -1,0 +1,28 @@
+﻿body {
+    background-image:linear-gradient(to right,#e496ef,#f9c9f5);
+}
+h1 {
+    font-family:'Lucida Handwriting';
+    font-weight:200;
+    color:darkslategrey;
+    transition:2s;
+    font-size:3em;
+}
+h1:hover {
+        transform: rotate(10);
+    }
+h3 {
+    font-family: 'Lucida Handwriting';
+    color: darkslategrey;
+    font-size:1em;
+}
+
+header{
+    font-family:'Times New Roman', Times, serif;
+    color:palevioletred;
+}
+footer{
+    font-family:'Times New Roman';
+    font-size:2em;
+    color:navy;
+}

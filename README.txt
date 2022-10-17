@@ -139,8 +139,23 @@ Ratings are all zero and showing the 0 in coloums
 Trying to solve the error 
 Committing everything till here on github 
 
-7:56 
+7:56pm 
 Added the validation of the datatypes in each coloums 
 Tested the app and got the expected output 
 Updated readme file and committed to github 
+ 
+Took a break for 20 mins 
+
+8:30 pm
+Completed with all the steps and committed everything to github 
+Starting with the css now...
+
+9:15 pm 
+Added some css 
+Changed the font size , font family
+Sprinkled some beautifull colours in the background and decorated the page 
+It looks good !!
+committing everything to github
+
+Taking dinner break now..
 
