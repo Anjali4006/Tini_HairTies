@@ -169,5 +169,12 @@ Added the proper css in about us page
 Updated readme file 
 Commit everything github 
 
-11:03 PM 
+11:41pm 
+Added image in the wwwroot>image folder 
+Tested the app but image isn't displaying 
+Trying to solve the issue 
+Solved the issue 
+Images displayed properly 
+Tested the application , works properly without any errors 
+Updated readme and committed to git hub 
 
