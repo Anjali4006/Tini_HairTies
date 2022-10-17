@@ -159,3 +159,12 @@ committing everything to github
 
 Taking dinner break now..
 
+10:29 
+Resume the assignment 
+Everything works properly without any errors 
+Adding content in the aboutus file about fictional company 
+Added the data from the google 
+link for the google content - https://mykitsch.com/pages/our-story
+Added the proper css in about us page 
+Updated readme file 
+Commit everything github 

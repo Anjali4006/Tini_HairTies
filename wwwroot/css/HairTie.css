@@ -11,12 +11,27 @@ h1 {
 h1:hover {
         transform: rotate(10);
     }
+h2{
+    color:navy;
+    font-family:'Times New Roman', Times, serif;
+
+}
 h3 {
     font-family: 'Lucida Handwriting';
     color: darkslategrey;
     font-size:1em;
 }
+ul {
+    font-size:2em; 
+    color:navy;
 
+}
+
+p{
+    font-family:'Times New Roman', Times, serif; 
+    color:darkblue;
+    font-size:1.5em;
+}
 header{
     font-family:'Times New Roman', Times, serif;
     color:palevioletred;
