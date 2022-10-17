@@ -178,3 +178,8 @@ Images displayed properly
 Tested the application , works properly without any errors 
 Updated readme and committed to git hub 
 
+Date : 17-10-22  12:42 AM 
+Finally done with the assignment 
+Got so many errors , this one seariously took blood , sweat and frustration!! LOL kidding ! 
+Updated readme and committed code ot github 
+
